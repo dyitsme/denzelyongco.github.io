@@ -120,8 +120,15 @@ body {
 
 .project-container {
   display: flex;
-  gap: 100px;
+  gap: 96px;
 } 
+
+@media (max-width: 40rem) {
+  .project-container {
+    display: flex;
+    gap: 32px;
+  }
+}
 
 .project-invert-container {
   flex-direction: row-reverse;
