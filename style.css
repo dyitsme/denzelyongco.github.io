@@ -1,3 +1,7 @@
+:root {
+  --green: #059669;
+}
+
 body {
   font-size: 16px;
   font-family: "Inter", sans-serif;
@@ -36,8 +40,7 @@ body {
 }
 
 .nav-link:hover {
-  color: #2563EB;
-
+  color: var(--green);
 }
 
 .about-container {
@@ -51,7 +54,7 @@ body {
 
 .name {
   font-size: 4rem;
-  color: #2563EB;
+  color: var(--green);
   text-align: center;
 }
 
@@ -63,7 +66,7 @@ body {
 .skills-title {
   font-size: 2rem;
   text-align: center;
-  color: #2563EB;
+  color: var(-green);
   font-weight: bold;
   margin-bottom: 32px;
 }
@@ -114,7 +117,7 @@ body {
 .projects-title {
   font-size: 2rem;
   text-align: center;
-  color: #2563EB;
+  color: var(--green);
   font-weight: bold;
 }
 
@@ -165,21 +168,21 @@ body {
 .project-link-btn {
   font-size: 1.25rem;
   background-color: white;
-  border: #2563EB solid 1px;
-  color: #2563EB;
+  border: var(--green) solid 1px;
+  color: var(--green);
   text-decoration: none;
   border-radius: 4px;
   padding: 8px 8px;
 }
 
 .project-link-btn:hover {
-  background-color: #2563EB;
+  background-color: var(--green);
   color: white;
   transition: 0.2s;
 }
 
 .project-link-btn:active {
-  background-color: #2563EB;
+  background-color: var(--green);
   color: white;
 }
 
@@ -193,7 +196,7 @@ body {
 } 
 
 .exp-container {
-  background-color: #2563EB;
+  background-color: var(--green);
   padding-top: 16px;
   padding-bottom: 16px;
 }
